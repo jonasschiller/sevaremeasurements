@@ -1,0 +1,72 @@
+  Setup:
+    Experiment =  
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.176.0/24
+    Function: 43
+    Protocols: 5
+    Datatypes = 512
+    Inputs = 27
+    Preprocessing: 0 1
+    SplitRoles: 1
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 4
+    txBuffer: 10000
+    rxBuffer: 10000
+    verifyBuffer: 1
+    Testtypes:
+      LATENCIES	= 0 25 50 75
+      PACKETDROPS	= 0 1 2 5
+      BANDWIDTHS	= 25000 10000 1000 100
+  Summary file = resultsMP-Slice/2024-02/19_14-04-30/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/jschille/default/2024-02-19_14-04-32_643458
+  Total Experiment runtime = 0h19min28sec
+  Experiment run status: [0;33mincomplete[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-02-19_14-04-32_643458/meld/terminal_output_run000.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-02-19_14-04-32_643458/meld/terminal_output_run001.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-02-19_14-04-32_643458/meld/terminal_output_run002.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-02-19_14-04-32_643458/meld/terminal_output_run003.txt[0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.69 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+
+Latency Info
+Node meld statistics
+--- 10.10.176.3 ping statistics ---
+rtt min/avg/max/mdev = 0.249/0.529/1.021/0.283 ms
+--- 10.10.176.4 ping statistics ---
+rtt min/avg/max/mdev = 0.237/0.251/0.276/0.013 ms
+Node tinyman statistics
+--- 10.10.176.4 ping statistics ---
+rtt min/avg/max/mdev = 0.201/0.321/0.565/0.125 ms
+--- 10.10.176.2 ping statistics ---
+rtt min/avg/max/mdev = 0.255/0.288/0.312/0.019 ms
+Node yieldly statistics
+--- 10.10.176.2 ping statistics ---
+rtt min/avg/max/mdev = 0.235/0.318/0.523/0.104 ms
+--- 10.10.176.3 ping statistics ---
+rtt min/avg/max/mdev = 0.263/0.288/0.305/0.014 ms
