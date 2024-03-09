@@ -1,0 +1,2 @@
+program;partysize;latencies(ms);bandwidths(Mbs);input_size;packetdrops(%);runtime_internal(s);Bytes Send;runtime_external(s);peakRAM(MiB);System Time(s);jobCPU(%)
+UseCases/SecureMean;3;0;25000;10000;0;;;0.19;58;3.94
