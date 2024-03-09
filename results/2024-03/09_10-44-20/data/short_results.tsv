@@ -1,0 +1,2 @@
+program  protocol     partysize  latencies(ms)  bandwidths(Mbs)  input_size  packetdrops(%)  runtime_internal(ms)  runtime_external(s)  peakRAM(MiB)  jobCPU(%)  ALLdataSent(MB),AllDataRec(MB)  ALLmessagesSent,AllMessagesRec      
+psi      boolean_gmw  3          0              25000            100         0                                     0.00                 1             81         NA                              NA                              NA  NA
