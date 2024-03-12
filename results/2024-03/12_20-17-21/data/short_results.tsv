@@ -1,0 +1,17 @@
+program                    partysize  latencies(ms)  bandwidths(Mbs)  input_size  packetdrops(%)  runtime_internal(s)  Bytes Send  runtime_external(s)  peakRAM(MiB)  System Time(s)  jobCPU(%)
+UseCases/NeuralNetworkVGG  3          50             25000            1           0               0:03:40.878          621466260   221.38               2601          15.23           
+UseCases/NeuralNetworkVGG  3          50             25000            1           0               0:03:38.454          621464224   218.94               2614          14.82           
+UseCases/NeuralNetworkVGG  3          50             25000            1           0               0:03:36.508          621463794   216.99               2602          15.33           
+UseCases/NeuralNetworkVGG  3          50             25000            1           0               0:03:45.155          621463597   225.64               2591          15.09           
+UseCases/NeuralNetworkVGG  3          50             25000            1           0               0:03:36.980          621465505   217.45               2590          15.05           
+UseCases/NeuralNetworkVGG  3          50             25000            1           0               0:03:44.264          621464826   224.76               2603          15.14           
+UseCases/NeuralNetworkVGG  3          75             25000            1           0               0:03:51.864          621464385   232.46               2589          15.05           
+UseCases/NeuralNetworkVGG  3          75             25000            1           0               0:04:01.155          621464810   241.76               2623          15.55           
+UseCases/NeuralNetworkVGG  3          75             25000            1           0               0:03:59.289          621464081   239.89               2608          15.15           
+UseCases/NeuralNetworkVGG  3          75             25000            1           0               0:04:00.951          621465034   241.53               2601          15.27           
+UseCases/NeuralNetworkVGG  3          75             25000            1           0               0:03:57.643          621463778   238.25               2582          15.16           
+UseCases/NeuralNetworkVGG  3          75             25000            1           0               0:03:52.966          621464573   233.58               2601          15.05           
+UseCases/NeuralNetworkVGG  3          75             25000            1           0               0:04:02.229          621465094   242.83               2604          15.73           
+UseCases/NeuralNetworkVGG  3          75             25000            1           0               0:04:00.167          621464260   240.78               2601          15.39           
+UseCases/NeuralNetworkVGG  3          75             25000            1           0               0:03:52.315          621465062   232.91               2592          15.16           
+UseCases/NeuralNetworkVGG  3          75             25000            1           0               0:04:02.965          621465207   243.59               2608          15.56           
