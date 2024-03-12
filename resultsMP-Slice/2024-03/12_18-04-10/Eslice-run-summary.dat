@@ -1,0 +1,79 @@
+  Setup:
+    Experiment =  
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.14.0/24
+    Function: 62 63 64
+    Protocols: 5
+    Datatypes = 32
+    Inputs = 500
+    Preprocessing: 0
+    SplitRoles: 0
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 1
+    txBuffer: 10000
+    rxBuffer: 10000
+    verifyBuffer: 1
+    Testtypes:
+      LATENCIES	= 0
+      PACKETDROPS	= 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 5 5 5 5 5 5 5 5 5 5
+      BANDWIDTHS	= 25000
+  Summary file = resultsMP-Slice/2024-03/12_18-04-10/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/jschille/default/2024-03-12_18-04-13_032159
+  Total Experiment runtime = 0h34min33sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-12_18-04-13_032159/meld/terminal_output_run000.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-12_18-04-13_032159/meld/terminal_output_run001.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-12_18-04-13_032159/meld/terminal_output_run002.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-12_18-04-13_032159/meld/terminal_output_run003.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-12_18-04-13_032159/meld/terminal_output_run004.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-12_18-04-13_032159/meld/terminal_output_run005.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-12_18-04-13_032159/meld/terminal_output_run006.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-12_18-04-13_032159/meld/terminal_output_run007.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-12_18-04-13_032159/meld/terminal_output_run008.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-12_18-04-13_032159/meld/terminal_output_run009.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-12_18-04-13_032159/meld/terminal_output_run010.txt[0m
+[[0;31mfail[0m]   stopping verification after 10 Errors
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.66 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.69 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.69 Gbits/sec
+
+Latency Info
+Node meld statistics
+--- 10.10.14.3 ping statistics ---
+rtt min/avg/max/mdev = 0.253/0.320/0.483/0.082 ms
+--- 10.10.14.4 ping statistics ---
+rtt min/avg/max/mdev = 0.228/0.268/0.295/0.022 ms
+Node tinyman statistics
+--- 10.10.14.4 ping statistics ---
+rtt min/avg/max/mdev = 0.226/0.318/0.501/0.094 ms
+--- 10.10.14.2 ping statistics ---
+rtt min/avg/max/mdev = 0.279/0.287/0.298/0.007 ms
+Node yieldly statistics
+--- 10.10.14.2 ping statistics ---
+rtt min/avg/max/mdev = 0.277/0.346/0.555/0.104 ms
+--- 10.10.14.3 ping statistics ---
+rtt min/avg/max/mdev = 0.280/0.301/0.318/0.012 ms
