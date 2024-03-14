@@ -1,0 +1,2 @@
+program;partysize;latencies(ms);bandwidths(Mbs);input_size;packetdrops(%);runtime_internal(s);Bytes Send;runtime_external(s);peakRAM(MiB);System Time(s);jobCPU(%)
+UseCases/SecureAuction;3;0;25000;500;0;0:00:22.195;135051809;22.49;831;5.92
