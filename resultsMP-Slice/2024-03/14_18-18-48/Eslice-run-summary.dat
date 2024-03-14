@@ -1,0 +1,66 @@
+  Setup:
+    Experiment =  
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.122.0/24
+    Function: 82 182 282
+    Protocols: 13
+    Datatypes = 512
+    Inputs = 1 1 1 1 1 1 1 1 1 1
+    Preprocessing: 0
+    SplitRoles: 0
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 4
+    txBuffer: 10000
+    rxBuffer: 10000
+    verifyBuffer: 16
+    Testtypes:
+  Summary file = resultsMP-Slice/2024-03/14_18-18-48/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/jschille/default/2024-03-14_18-18-51_075538
+  Total Experiment runtime = 0h8min7sec
+  Experiment run status: [0;33mincomplete[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-14_18-18-51_075538/meld/terminal_output_run00.txt[0m
+[ [0;32mok[0m ]   done - test finished
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.82 Gbits/sec
+total receiver speed: 24.69 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.82 Gbits/sec
+total receiver speed: 24.69 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.82 Gbits/sec
+total receiver speed: 24.69 Gbits/sec
+
+Latency Info
+Node meld statistics
+--- 10.10.122.3 ping statistics ---
+rtt min/avg/max/mdev = 0.252/0.317/0.496/0.090 ms
+--- 10.10.122.4 ping statistics ---
+rtt min/avg/max/mdev = 0.278/0.289/0.314/0.012 ms
+Node tinyman statistics
+--- 10.10.122.4 ping statistics ---
+rtt min/avg/max/mdev = 0.271/0.353/0.589/0.118 ms
+--- 10.10.122.2 ping statistics ---
+rtt min/avg/max/mdev = 0.274/0.287/0.299/0.010 ms
+Node yieldly statistics
+--- 10.10.122.2 ping statistics ---
+rtt min/avg/max/mdev = 0.271/0.346/0.576/0.115 ms
+--- 10.10.122.3 ping statistics ---
+rtt min/avg/max/mdev = 0.265/0.284/0.297/0.013 ms
