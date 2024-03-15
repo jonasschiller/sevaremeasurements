@@ -1,0 +1,62 @@
+  Setup:
+    Experiment = 54_Bit_AND 
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.137.0/24
+    Protocols:
+      Field  = 
+      Ring   = 
+      Binary = replicated-bin semi-bin
+    Inputs = 10000
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+      LATENCIES	= 0 0 0 0 0 0 0 0 0 0 25 25 25 25 25 25 25 25 25 25 50 50 50 50 50 50 50 50 50 50 75 75 75 75 75 75 75 75 75 75
+      PACKETDROPS	= 0
+      BANDWIDTHS	= 25000
+  Summary file = results/mp-spdz/2024-03/15_11-19-43/E54-run-summary.dat
+  POS files location = /srv/testbed/results/jschille/default/2024-03-15_11-19-46_367966
+  Total Experiment runtime = 0h21min39sec
+  Experiment run status: [0;32mcompleted[0m
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.65 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+
+Latency Info
+Node meld statistics
+--- 10.10.137.3 ping statistics ---
+rtt min/avg/max/mdev = 0.271/0.311/0.424/0.056 ms
+--- 10.10.137.4 ping statistics ---
+rtt min/avg/max/mdev = 0.177/0.248/0.298/0.048 ms
+Node tinyman statistics
+--- 10.10.137.4 ping statistics ---
+rtt min/avg/max/mdev = 0.184/0.324/0.540/0.116 ms
+--- 10.10.137.2 ping statistics ---
+rtt min/avg/max/mdev = 0.238/0.271/0.297/0.020 ms
+Node yieldly statistics
+--- 10.10.137.2 ping statistics ---
+rtt min/avg/max/mdev = 0.260/0.351/0.572/0.111 ms
+--- 10.10.137.3 ping statistics ---
+rtt min/avg/max/mdev = 0.255/0.282/0.304/0.018 ms
