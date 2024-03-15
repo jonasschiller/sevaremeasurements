@@ -1,0 +1,2 @@
+program             partysize  latencies(ms)  bandwidths(Mbs)  input_size  packetdrops(%)  runtime_internal(s)  Bytes Send  runtime_external(s)  peakRAM(MiB)  System Time(s)
+Benchmark/Division  3          0              25000            1000        0                                                0.02                 8             0.00
