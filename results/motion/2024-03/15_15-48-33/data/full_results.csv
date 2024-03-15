@@ -1,0 +1,4 @@
+program;protocol;partysize;latencies(ms);bandwidths(Mbs);input_size;packetdrops(%);runtime_internal(ms);runtime_external(s);peakRAM(MiB);jobCPU(%);ALLdataSent(MB);AllDataRec(MB);ALLmessagesSent;AllMessagesRec;multTripPresetup;multTripSetup;sharedPowerPresetup;sharedPowerSetup;sharedBitPresetup;sharedBitSetup;baseOT;otExtension;kk13OtExtension;preprocessingTime;gatesSetup;gatesOnline
+BitAnd;boolean_gmw;3;0;25000;10000;0;100.944;3.12;27;11;0.184;0.184;392;392;1.346;1.794;0.000;0.000;0.000;0.000;0.000;Setup;Extension;80.195;0.006;4.402
+BitAnd;boolean_gmw;3;0;25000;10000;0;103.754;3.12;26;11;0.184;0.184;392;392;1.947;1.541;0.000;0.000;0.000;0.000;0.000;Setup;Extension;82.952;0.006;4.932
+BitAnd;boolean_gmw;3;0;25000;10000;0;191.363;3.25;27;11;0.184;0.184;392;392;2.161;87.167;0.000;0.000;0.000;0.000;0.000;Setup;Extension;173.783;0.006;1.810
