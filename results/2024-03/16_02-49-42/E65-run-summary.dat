@@ -1,0 +1,96 @@
+  Setup:
+    Experiment = 65_NeuralNetworkLeNet 
+    Nodes = idex meld tinyman yieldly
+    Internal network = 10.10.192.0/24
+    Protocols:
+      Field  = 
+      Ring   = rep4-ring
+      Binary = 
+    Inputs = 64
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+      LATENCIES	= 0 0 0 0 0 0 0 0 0 0 25 25 25 25 25 25 25 25 25 25 25 50 50 50 50 50 50 50 50 50 50 75 75 75 75 75 75 75 75 75 75
+      PACKETDROPS	= 0
+      BANDWIDTHS	= 25000
+  Summary file = results/2024-03/16_02-49-42/E65-run-summary.dat
+  POS files location = /srv/testbed/results/jschille/default/2024-03-16_02-49-45_565829
+  Total Experiment runtime = 0h43min21sec
+  Experiment run status: [0;32mcompleted[0m
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.3 Gbits/sec
+total receiver speed: 24.2 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.66 Gbits/sec
+measured speed between nodes 1 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.69 Gbits/sec
+measured speed between nodes 2 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+measured speed between nodes 3 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+
+Latency Info
+Node idex statistics
+--- 10.10.192.3 ping statistics ---
+rtt min/avg/max/mdev = 0.271/0.344/0.521/0.089 ms
+--- 10.10.192.4 ping statistics ---
+rtt min/avg/max/mdev = 0.246/0.303/0.437/0.068 ms
+--- 10.10.192.5 ping statistics ---
+rtt min/avg/max/mdev = 0.250/0.278/0.309/0.020 ms
+Node meld statistics
+--- 10.10.192.4 ping statistics ---
+rtt min/avg/max/mdev = 0.230/0.292/0.408/0.063 ms
+--- 10.10.192.5 ping statistics ---
+rtt min/avg/max/mdev = 0.287/0.356/0.592/0.118 ms
+--- 10.10.192.2 ping statistics ---
+rtt min/avg/max/mdev = 0.258/0.280/0.312/0.018 ms
+Node tinyman statistics
+--- 10.10.192.5 ping statistics ---
+rtt min/avg/max/mdev = 0.254/0.342/0.568/0.114 ms
+--- 10.10.192.2 ping statistics ---
+rtt min/avg/max/mdev = 0.257/0.272/0.291/0.012 ms
+--- 10.10.192.3 ping statistics ---
+rtt min/avg/max/mdev = 0.267/0.282/0.298/0.012 ms
+Node yieldly statistics
+--- 10.10.192.2 ping statistics ---
+rtt min/avg/max/mdev = 0.268/0.339/0.550/0.105 ms
+--- 10.10.192.3 ping statistics ---
+rtt min/avg/max/mdev = 0.265/0.282/0.301/0.013 ms
+--- 10.10.192.4 ping statistics ---
+rtt min/avg/max/mdev = 0.234/0.272/0.297/0.021 ms
