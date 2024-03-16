@@ -1,0 +1,113 @@
+  Setup:
+    Experiment =  
+    Nodes = idex meld tinyman yieldly
+    Internal network = 10.10.206.0/24
+    Function: 82 182 282
+    Protocols: 12
+    Datatypes = 512
+    Inputs = 1
+    Preprocessing: 0
+    SplitRoles: 0
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 4
+    txBuffer: 10000
+    rxBuffer: 10000
+    verifyBuffer: 1
+    Testtypes:
+      LATENCIES	= 0
+      PACKETDROPS	= 0
+      BANDWIDTHS	= 25000 25000 25000 25000 25000 25000 25000 25000 25000 25000 10000 10000 10000 10000 10000 10000 10000 10000 10000 10000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 100 100 100 100 100 100 100 100 100 100 100
+  Summary file = resultsMP-Slice/2024-03/16_19-50-07/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/jschille/default/2024-03-16_19-50-11_083656
+  Total Experiment runtime = 0h52min44sec
+  Experiment run status: [0;32mcompleted[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-16_19-50-11_083656/idex/terminal_output_run000.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-16_19-50-11_083656/idex/terminal_output_run001.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-16_19-50-11_083656/idex/terminal_output_run002.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-16_19-50-11_083656/idex/terminal_output_run003.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-16_19-50-11_083656/idex/terminal_output_run004.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-16_19-50-11_083656/idex/terminal_output_run005.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-16_19-50-11_083656/idex/terminal_output_run006.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-16_19-50-11_083656/idex/terminal_output_run007.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-16_19-50-11_083656/idex/terminal_output_run008.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-16_19-50-11_083656/idex/terminal_output_run009.txt[0m
+[0;33m    Error  - 00000001 not found in /srv/testbed/results/jschille/default/2024-03-16_19-50-11_083656/idex/terminal_output_run010.txt[0m
+[[0;31mfail[0m]   stopping verification after 10 Errors
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.66 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.66 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.65 Gbits/sec
+measured speed between nodes 1 and 4
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.66 Gbits/sec
+measured speed between nodes 2 and 4
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.65 Gbits/sec
+measured speed between nodes 3 and 4
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+
+Latency Info
+Node idex statistics
+--- 10.10.206.3 ping statistics ---
+rtt min/avg/max/mdev = 0.282/0.333/0.500/0.083 ms
+--- 10.10.206.4 ping statistics ---
+rtt min/avg/max/mdev = 0.245/0.324/0.559/0.118 ms
+--- 10.10.206.5 ping statistics ---
+rtt min/avg/max/mdev = 0.220/0.273/0.295/0.028 ms
+Node meld statistics
+--- 10.10.206.4 ping statistics ---
+rtt min/avg/max/mdev = 0.253/0.334/0.570/0.118 ms
+--- 10.10.206.5 ping statistics ---
+rtt min/avg/max/mdev = 0.289/0.342/0.531/0.094 ms
+--- 10.10.206.2 ping statistics ---
+rtt min/avg/max/mdev = 0.219/0.274/0.316/0.033 ms
+Node tinyman statistics
+--- 10.10.206.5 ping statistics ---
+rtt min/avg/max/mdev = 0.272/0.303/0.401/0.049 ms
+--- 10.10.206.2 ping statistics ---
+rtt min/avg/max/mdev = 0.251/0.271/0.288/0.012 ms
+--- 10.10.206.3 ping statistics ---
+rtt min/avg/max/mdev = 0.246/0.280/0.295/0.018 ms
+Node yieldly statistics
+--- 10.10.206.2 ping statistics ---
+rtt min/avg/max/mdev = 0.286/0.346/0.555/0.104 ms
+--- 10.10.206.3 ping statistics ---
+rtt min/avg/max/mdev = 0.282/0.294/0.303/0.007 ms
+--- 10.10.206.4 ping statistics ---
+rtt min/avg/max/mdev = 0.185/0.257/0.290/0.037 ms
