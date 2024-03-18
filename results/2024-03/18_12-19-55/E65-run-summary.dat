@@ -1,0 +1,62 @@
+  Setup:
+    Experiment = 65_NeuralNetworkLeNet 
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.20.0/24
+    Protocols:
+      Field  = 
+      Ring   = replicated-ring
+      Binary = 
+    Inputs = 64
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+      LATENCIES	= 0 0 0 0 0 0 0 0 0 0 25 25 25 25 25 25 25 25 25 25 25 50 50 50 50 50 50 50 50 50 50 75 75 75 75 75 75 75 75 75 75
+      PACKETDROPS	= 0
+      BANDWIDTHS	= 25000
+  Summary file = results/2024-03/18_12-19-55/E65-run-summary.dat
+  POS files location = /srv/testbed/results/jschille/default/2024-03-18_12-19-58_126501
+  Total Experiment runtime = 0h26min11sec
+  Experiment run status: [0;32mcompleted[0m
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.64 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+
+Latency Info
+Node meld statistics
+--- 10.10.20.3 ping statistics ---
+rtt min/avg/max/mdev = 0.273/0.329/0.500/0.085 ms
+--- 10.10.20.4 ping statistics ---
+rtt min/avg/max/mdev = 0.272/0.295/0.313/0.017 ms
+Node tinyman statistics
+--- 10.10.20.4 ping statistics ---
+rtt min/avg/max/mdev = 0.266/0.339/0.558/0.109 ms
+--- 10.10.20.2 ping statistics ---
+rtt min/avg/max/mdev = 0.268/0.286/0.299/0.010 ms
+Node yieldly statistics
+--- 10.10.20.2 ping statistics ---
+rtt min/avg/max/mdev = 0.287/0.331/0.470/0.069 ms
+--- 10.10.20.3 ping statistics ---
+rtt min/avg/max/mdev = 0.271/0.286/0.313/0.014 ms
