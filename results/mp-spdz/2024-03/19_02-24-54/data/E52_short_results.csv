@@ -1,0 +1,4 @@
+program;c.domain;adv.model;protocol;partysize;comp.time(s);comp.peakRAM(MiB);bin.filesize(MiB);latencies(ms);bandwidths(Mbs);input_size;packetdrops(%);runtime_internal(s);runtime_external(s);peakRAM(MiB);jobCPU(%);P0commRounds;P0dataSent(MB);ALLdataSent(MB);System time (s)
+52;RING;semidishonest;semi2k;3;0.92;54;1;75;25000;1000;0;2468.37;2473.06;100;8%;~70214;809.461;2419.41;113.62
+52;RING;semidishonest;semi2k;3;NA;NA;NA;75;25000;1000;0;2467.83;2472.51;96;8%;~70214;809.461;2419.41;113.87
+52;RING;semidishonest;semi2k;3;NA;NA;NA;75;25000;1000;0;2467.88;2472.55;103;8%;~70214;809.461;2419.41;111.92
