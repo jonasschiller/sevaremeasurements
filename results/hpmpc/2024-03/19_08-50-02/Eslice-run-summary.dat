@@ -1,0 +1,67 @@
+  Setup:
+    Experiment =  
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.183.0/24
+    Function: 43
+    Protocols: 5
+    Datatypes = 512
+    Inputs = 1
+    Preprocessing: 0
+    SplitRoles: 1
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 4
+    txBuffer: 10000
+    rxBuffer: 10000
+    verifyBuffer: 1
+    Testtypes:
+      LATENCIES	= 25 25 25 25 25 25 25 25 25 25 25 50 50 50 50 50 50 50 50 50 50 75 75 75 75 75 75 75 75 75 75
+      PACKETDROPS	= 0
+      BANDWIDTHS	= 25000
+  Summary file = results/hpmpc/2024-03/19_08-50-02/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/jschille/default/2024-03-19_08-50-04_897316
+  Total Experiment runtime = 0h20min17sec
+  Experiment run status: [0;32mcompleted[0m
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.70 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.81 Gbits/sec
+total receiver speed: 24.66 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+
+Latency Info
+Node meld statistics
+--- 10.10.183.3 ping statistics ---
+rtt min/avg/max/mdev = 0.240/0.335/0.575/0.121 ms
+--- 10.10.183.4 ping statistics ---
+rtt min/avg/max/mdev = 0.269/0.289/0.308/0.013 ms
+Node tinyman statistics
+--- 10.10.183.4 ping statistics ---
+rtt min/avg/max/mdev = 0.273/0.345/0.576/0.115 ms
+--- 10.10.183.2 ping statistics ---
+rtt min/avg/max/mdev = 0.293/0.302/0.307/0.004 ms
+Node yieldly statistics
+--- 10.10.183.2 ping statistics ---
+rtt min/avg/max/mdev = 0.275/0.320/0.452/0.066 ms
+--- 10.10.183.3 ping statistics ---
+rtt min/avg/max/mdev = 0.230/0.277/0.304/0.027 ms
