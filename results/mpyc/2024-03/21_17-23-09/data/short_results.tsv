@@ -1,0 +1,2 @@
+program                    partysize  input_size  runtime_internal(s)  Bytes Send  runtime_external(s)  peakRAM(MiB)  System Time(s)
+Benchmarks/multiplication  4          1000        0:00:00.005          30494       0.31                 57            4.11
