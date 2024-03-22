@@ -1,0 +1,62 @@
+  Setup:
+    Experiment = 51_Int_Multiplication 
+    Nodes = meld tinyman yieldly
+    Internal network = 10.10.96.0/24
+    Protocols:
+      Field  = shamir replicated-field
+      Ring   = semi2k ps-rep-ring replicated-ring
+      Binary = 
+    Inputs = 1000000
+    Compile flags: 
+    Program flags: 
+    Run flags: 
+    Testtypes:
+      LATENCIES	= 0 0 0 0 0 0 0 0 0 25 25 25 25 25 25 25 25 25 25 50 50 50 50 50 50 50 50 50 50 75 75 75 75 75 75 75 75 75 75
+      PACKETDROPS	= 0
+      BANDWIDTHS	= 25000
+  Summary file = results/mp-spdz/2024-03/22_14-49-42/E51-run-summary.dat
+  POS files location = /srv/testbed/results/jschille/default/2024-03-22_14-49-44_613700
+  Total Experiment runtime = 0h56min32sec
+  Experiment run status: [0;32mcompleted[0m
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 24.7 Gbits/sec
+total receiver speed: 24.6 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.80 Gbits/sec
+total receiver speed: 24.68 Gbits/sec
+
+Latency Info
+Node meld statistics
+--- 10.10.96.3 ping statistics ---
+rtt min/avg/max/mdev = 0.253/0.320/0.533/0.106 ms
+--- 10.10.96.4 ping statistics ---
+rtt min/avg/max/mdev = 0.272/0.298/0.319/0.016 ms
+Node tinyman statistics
+--- 10.10.96.4 ping statistics ---
+rtt min/avg/max/mdev = 0.266/0.334/0.505/0.086 ms
+--- 10.10.96.2 ping statistics ---
+rtt min/avg/max/mdev = 0.266/0.279/0.289/0.008 ms
+Node yieldly statistics
+--- 10.10.96.2 ping statistics ---
+rtt min/avg/max/mdev = 0.284/0.347/0.539/0.096 ms
+--- 10.10.96.3 ping statistics ---
+rtt min/avg/max/mdev = 0.270/0.287/0.299/0.010 ms
