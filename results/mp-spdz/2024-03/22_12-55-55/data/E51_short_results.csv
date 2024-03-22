@@ -1,0 +1,11 @@
+program;c.domain;adv.model;protocol;partysize;comp.time(s);comp.peakRAM(MiB);bin.filesize(MiB);latencies(ms);bandwidths(Mbs);input_size;packetdrops(%);runtime_internal(s);runtime_external(s);peakRAM(MiB);jobCPU(%);P0commRounds;P0dataSent(MB);ALLdataSent(MB);System time (s)
+51;RING;semihonest;replicated-ring;3;2.14;139;1;0;25000;1000000;0;0.0823818;0.31;215;283%;~20;16.0002;48.0005;0.18
+51;RING;semihonest;replicated-ring;3;NA;NA;NA;0;25000;1000000;0;0.0800216;0.30;219;290%;~20;16.0002;48.0005;0.23
+51;RING;semihonest;replicated-ring;3;NA;NA;NA;0;25000;1000000;0;0.0844539;0.32;219;286%;~20;16.0002;48.0005;0.22
+51;RING;semihonest;replicated-ring;3;NA;NA;NA;0;25000;1000000;0;0.0961906;0.36;211;245%;~20;16.0002;48.0005;0.24
+51;RING;semihonest;replicated-ring;3;NA;NA;NA;0;25000;1000000;0;0.0784817;0.32;216;273%;~20;16.0002;48.0005;0.24
+51;RING;semihonest;replicated-ring;3;NA;NA;NA;0;25000;1000000;0;0.0925536;0.33;216;288%;~20;16.0002;48.0005;0.27
+51;RING;semihonest;replicated-ring;3;NA;NA;NA;0;25000;1000000;0;0.0852368;0.32;216;282%;~20;16.0002;48.0005;0.27
+51;RING;semihonest;replicated-ring;3;NA;NA;NA;0;25000;1000000;0;0.090775;0.34;212;278%;~20;16.0002;48.0005;0.25
+51;RING;semihonest;replicated-ring;3;NA;NA;NA;0;25000;1000000;0;0.0778003;0.31;213;287%;~20;16.0002;48.0005;0.26
+51;RING;semihonest;replicated-ring;3;NA;NA;NA;0;25000;1000000;0;0.0859402;0.35;219;288%;~20;16.0002;48.0005;0.26
