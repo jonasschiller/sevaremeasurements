@@ -1,0 +1,65 @@
+  Setup:
+    Experiment =  
+    Nodes = algofi gard goracle
+    Internal network = 10.10.140.0/24
+    Function: 49 50 51
+    Protocols: 5
+    Datatypes = 32
+    Inputs = 1000
+    Preprocessing: 0
+    SplitRoles: 0
+    Pack Bool: 0
+    Optimized Sharing: 1
+    SSL: 0
+    Threads: 1
+    txBuffer: 32
+    rxBuffer: 32
+    verifyBuffer: 16
+    Testtypes:
+      LATENCIES	= 0 25 50 75
+  Summary file = results/hpmpc/2024-04/23_11-20-49/Eslice-run-summary.dat
+  POS files location = /srv/testbed/results/jschille/default/2024-04-23_11-20-53_750432
+  Total Experiment runtime = 0h13min4sec
+  Experiment run status: [0;32mcompleted[0m
+
+
+Networking Information
+Speedtest Info
+measured speed between nodes 1 and 2
+ Threads: 1
+total sender speed: 23.5 Gbits/sec
+total receiver speed: 23.4 Gbits/sec
+ Threads: 10
+total sender speed: 23.56 Gbits/sec
+total receiver speed: 23.44 Gbits/sec
+measured speed between nodes 1 and 3
+ Threads: 1
+total sender speed: 23.5 Gbits/sec
+total receiver speed: 23.4 Gbits/sec
+ Threads: 10
+total sender speed: 23.58 Gbits/sec
+total receiver speed: 23.46 Gbits/sec
+measured speed between nodes 2 and 3
+ Threads: 1
+total sender speed: 24.8 Gbits/sec
+total receiver speed: 24.7 Gbits/sec
+ Threads: 10
+total sender speed: 24.79 Gbits/sec
+total receiver speed: 24.67 Gbits/sec
+
+Latency Info
+Node algofi statistics
+--- 10.10.140.3 ping statistics ---
+rtt min/avg/max/mdev = 0.090/0.127/0.235/0.054 ms
+--- 10.10.140.4 ping statistics ---
+rtt min/avg/max/mdev = 0.184/0.262/0.310/0.056 ms
+Node gard statistics
+--- 10.10.140.4 ping statistics ---
+rtt min/avg/max/mdev = 0.206/0.239/0.360/0.060 ms
+--- 10.10.140.2 ping statistics ---
+rtt min/avg/max/mdev = 0.208/0.211/0.220/0.004 ms
+Node goracle statistics
+--- 10.10.140.2 ping statistics ---
+rtt min/avg/max/mdev = 0.309/0.318/0.341/0.011 ms
+--- 10.10.140.3 ping statistics ---
+rtt min/avg/max/mdev = 0.307/0.311/0.320/0.004 ms
